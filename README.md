@@ -36,8 +36,6 @@ k6를 활용한 부하 테스트와 성능 개선
 **Collaboration**
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-
 ## Featured Project
 
 꼬랑지(kkorangji) — 반려동물 일상 공유 및 실종·제보 소셜 서비스
