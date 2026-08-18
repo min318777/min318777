@@ -48,15 +48,6 @@ Java 17, Spring Boot, MySQL, Redis, AWS 기반 백엔드 개발
 - 캐시 워밍 전략을 적용해 인기글 조회 캐시 만료 시 최대 응답 속도 15s → 105ms 단축
 - k6 부하 테스트로 병목 구간 분석 및 CI/CD 빌드 최적화로 빌드 시간 1m 45s → 1m 25s, 이미지 크기 1.63GB → 756MB 단축
 
-## GitHub Stats
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=min318777&show_icons=true&theme=default&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=min318777&layout=compact&hide_border=true" />
-</p>
-
-![Visitor Count](https://komarev.com/ghpvc/?username=min318777&color=blueviolet&style=flat-square&label=Profile+Views)
-
 ## Contact
 
 alsquddlf1@gmail.com
