@@ -2,7 +2,7 @@
 ## About Me
 
 - Java와 Spring Boot 기반 백엔드 개발
-- MySQL 쿼리 최적화 및 Redis 캐시 적용
+- MySQL 실행 계획 분석 및 인덱스 적용, 쿼리 최적화
 - AWS 기반 서비스 배포 및 운영
 - k6를 활용한 부하 테스트와 성능 개선
 
