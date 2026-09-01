@@ -40,7 +40,7 @@
 
 꼬랑지(kkorangji) — 반려동물 일상 공유 및 실종·제보 소셜 서비스
 
-Java 17, Spring Boot, MySQL, Redis, AWS 기반 백엔드 개발
+Java, Spring Boot, MySQL, Redis, AWS, JPA, Query DSL 기반 RESTful API 개발
 
 - 게시글 목록 조회에 DTO Projection과 인덱스를 적용해 100만 건 데이터 기준 응답 속도 1,550ms → 30ms 단축
 - SSE 알림에 Heartbeat와 Redis Pub/Sub을 적용해 다중 인스턴스 환경에서의 알림 유실 문제 해결
