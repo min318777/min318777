@@ -42,10 +42,10 @@
 
 Java, Spring Boot, MySQL, Redis, AWS, JPA, Query DSL 기반 RESTful API 개발
 
-- 게시글 목록 조회에 DTO Projection과 인덱스를 적용해 100만 건 데이터 기준 응답 속도 1,100ms → 20ms 단축
-- SSE 알림에 Heartbeat와 Redis Pub/Sub을 적용해 다중 인스턴스 환경에서의 알림 유실 문제 해결
-- 조회수 업데이트에 Redis 기반 Write Behind 전략을 적용해 동시성 Lost Update 해결, TPS 190 → 450 개선
-- k6 부하 테스트로 병목 구간 분석 및 CI/CD 빌드 최적화로 빌드 시간 1m 45s → 1m 25s, 이미지 크기 1.63GB → 756MB 단축
+- 게시글 목록 조회에 인덱스를 적용해 100만 건 데이터 기준 응답 속도 1,100ms → 20ms 단축
+- SSE 실시간 알림에 Heartbeat 전략을 도입하여 비정상 연결 종료 시 좀비 커넥션 문제 해결
+- 조회수 업데이트를 DB 원자적업데이트 방식으로 전환하여  동시성으로 인한 Lost Update 해결
+- 인기글 목록 조회 방식에 Redis를 도입하여 점수 기반으로 정렬된 데이터를 인메모리 저장소에서 빠르게 조회할 수 있도록 개선
 
 ## Contact
 
