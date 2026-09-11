@@ -38,7 +38,8 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ## Featured Project
 
-꼬랑지(kkorangji) - 반려동물 일상 공유 및 실종·제보 소셜 서비스
+꼬랑지(kkorangji) - 반려동물 일상 공유 및 실종,제보 소셜 서비스
+
 https://github.com/min318777/kkorangji
 
 Java, Spring Boot, MySQL, Redis, AWS, JPA, Query DSL 기반 RESTful API 개발
@@ -50,8 +51,10 @@ Java, Spring Boot, MySQL, Redis, AWS, JPA, Query DSL 기반 RESTful API 개발
 
 조각조각(Jogakjogak) - 이력서, 채용공고 분석 기반 취업 준비 체크리스트 서비스
 
-Java, Spring Boot, MySQL, Redis, AWS, JPA, OAuth2, JWT, Spring Security, Dokcer (팀 프로젝트, BE 3인)
 https://github.com/min318777/Jogakjogak
+
+Java, Spring Boot, MySQL, Redis, AWS, JPA, OAuth2, JWT, Spring Security, Dokcer (팀 프로젝트, BE 3인)
+
 - JWT Access/Refresh 이중 토큰 전략에 Redis TTL을 적용해 만료 토큰 자동 삭제 및 인증 쿼리 부하 감소
 - Refresh Token Rotation으로 토큰 재사용을 감지해 탈취 의심 시 해당 사용자의 전체 세션을 즉시 무효화
 - Gemini 2.0 API로 이력서, 채용공고를 분석해 부족한 점을 체크리스트 형태로 자동 생성
